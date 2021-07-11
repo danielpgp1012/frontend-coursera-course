@@ -1,0 +1,82 @@
+/* header */
+#header-nav {
+    background-color: #dfb8ff;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0px;
+  }
+
+.navbar-brand{
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+.navbar-brand h1{
+  color: #e7fffb;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-left: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+#nav-list {
+    margin-top: 0;
+    background-color: #e7fffb;
+}
+#nav-list a{
+    text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.navbar-collapse #nav-list{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: thin solid black;
+}
+.navbar-collapse #nav-list li{
+    border: thin solid black;
+}
+/* Main content */
+#main-content{
+    margin-top: 0px;
+}
+
+#menu-categories-title {
+    margin-bottom: 50px;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+
+.menu-item-description {
+  background-color: antiquewhite;
+  overflow: hidden;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  padding: 15px;
+}
+.menu-item-description > h3 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.menu-item-description .menu-item-details {
+  height: 1000px;
+}
+@media (max-width: 767px) {
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+      }
+}
