@@ -42,7 +42,7 @@ WARNING!!! WARNING!!!
   // See Lecture 50, part 1
   for (var i = 0; i < names.length; i++) {
     var curName = names[i];
-    var firstLetter = curName.charAt(0).toLowerCase();
+
 
 
     // STEP 11:
@@ -52,7 +52,7 @@ WARNING!!! WARNING!!!
     // string object's 'toLowerCase' method on the result so we can compare
     // to lower case character 'j' afterwards.
     // Look up these methods on Mozilla Developer Network web site if needed.
-    // var firstLetter =
+    var firstLetter = curName.charAt(0).toLowerCase();
 
     // STEP 12:
     // Compare the 'firstLetter' retrieved in STEP 11 to lower case
@@ -60,8 +60,9 @@ WARNING!!! WARNING!!!
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
     if (firstLetter == 'j') {
-      // byeSpeaker.xxxx
+      byeSpeaker.speak(curName);
     } else {
+      helloSpeaker.speak(curName);
       // helloSpeaker.xxxx
     }
   }
