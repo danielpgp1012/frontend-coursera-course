@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to Daniel's World
 
-You can use the [editor on GitHub](https://github.com/danielpgp1012/frontend-coursera-course/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Here you will find a preview of some of the projects I've been interested in.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Favo
+This is an Android app that is built for people to help each other. Please check out the source code at the [Favo-Repository](https://github.com/favo-sdp/Favo). 
+Watch our [video](https://youtu.be/AUNpbKmR4YE)
 
-### Markdown
+### Course Assignments
+On my spare time I've been following this awesome [course](https://www.coursera.org/learn/html-css-javascript-for-web-developers/) on Coursera. 
+Please find below the solutions to the different modules:
+* [Module2](./module2-solution)
+* [Module3](./module3-solution)
+* [Module3-advanced](./module3-solution-advanced)
+* [Module4](./module4-solution)
+* [Module5](./module5-solution)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/danielpgp1012/frontend-coursera-course/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
